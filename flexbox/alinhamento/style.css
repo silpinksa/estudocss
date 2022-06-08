@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+
+.bloco_1 {
+  height: 300px;
+  width: 300px;
+  background-color: pink;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  
+ }
+
+.bloco_2 {
+  height: 300px;
+  width: 300px;
+  background-color: red;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+ 
+ 
+}
+
+.bloco_3 {
+  height: 300px;
+  width: 300px;
+  background-color: green;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+}
+
+.bloco_4 {
+  height: 300px;
+  width: 300px;
+  background-color: purple;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+}
+
+.container_secundario {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
